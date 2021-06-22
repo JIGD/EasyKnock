@@ -1,7 +1,13 @@
 # EasyKnock Test Assignment
+Range was skipped since information on its formula wasn't provided
+Decided to use a more module/action based approach instead of a page object one since we're just testing the calculator for this assignment
 
-
-
+## Running the tests
+Open console
+Go to project dir
+Enter 'npm install'
+Enter '$(npm bin)/cypress open'
+Select any test you want to run
 
 ## Edge Cases: 
 Home Value too low:
@@ -25,3 +31,4 @@ Arabic numbers are not accepted at the moment (Which is fine considering the off
 Deleting or typing a number in fields always send the cursor to the end of the field, why?
 Ctrl + Z doesn't work in input fields
 If home value is set to 0 calculate value is still enabled, maybe disabling it would be best but not critical
+There's an uncaught exception in the site, cypress usually fails tests unless when these are found but i've turned off all handling for tests to pass but ideally this should either A not happen or B conditionally turn off handling for this known error.
