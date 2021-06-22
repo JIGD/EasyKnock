@@ -1,4 +1,6 @@
 # EasyKnock Test Assignment
+Range was skipped since information on its formula wasn't provided
+Decided to use a more module/action based approach instead of a page object one since we're just testing the calculator for this assignment
 
 ## Running the tests
 Open console
