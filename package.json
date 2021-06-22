@@ -1,0 +1,26 @@
+{
+  "name": "easyknock",
+  "version": "1.0.0",
+  "description": "Test assignment for EasyKnock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIGD/EasyKnock.git"
+  },
+  "keywords": [
+    "EasyKnock"
+  ],
+  "author": "JIGD\u001b@",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JIGD/EasyKnock/issues"
+  },
+  "homepage": "https://github.com/JIGD/EasyKnock#readme",
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
