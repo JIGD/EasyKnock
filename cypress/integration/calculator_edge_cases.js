@@ -32,7 +32,7 @@ describe('Leaseback calculator edge cases', () => {
       calcResultsValue().should('have.text', '$0')
     })
 
-    it.only('should return a failure condition if the value is below 0', () => {
+    it('should return a failure condition if the value is below 0', () => {
 
       cy.visit('https://www.easyknock.com/programs/sellstay')
       
