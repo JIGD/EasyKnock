@@ -1,10 +1,9 @@
-# EasyKnock
-Test Assignment
+# EasyKnock Test Assignment
 
 
 
 
-Edge Cases: 
+## Edge Cases: 
 Home Value too low:
 If we set the home value to anything lower than 100000 then we get the may not qualify screen regardless of mortgage balance or other liens
 
@@ -22,7 +21,7 @@ Arabic numbers are not accepted at the moment (Which is fine considering the off
 
 
 
-Notes:
+## Notes:
 Deleting or typing a number in fields always send the cursor to the end of the field, why?
 Ctrl + Z doesn't work in input fields
 If home value is set to 0 calculate value is still enabled, maybe disabling it would be best but not critical
