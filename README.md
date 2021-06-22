@@ -1,7 +1,11 @@
 # EasyKnock Test Assignment
 
-
-
+## Running the tests
+Open console
+Go to project dir
+Enter 'npm install'
+Enter '$(npm bin)/cypress open'
+Select any test you want to run
 
 ## Edge Cases: 
 Home Value too low:
